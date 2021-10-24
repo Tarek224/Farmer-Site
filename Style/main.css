@@ -1,0 +1,335 @@
+/* #666666 */
+header
+{
+    width: 100%;
+    background-color: #052501;
+}
+header section
+{
+    width: 90%;    
+    height: 100%;
+    margin: auto;
+    padding: 1% 1% 1% 1%;
+    color: #4bc714;
+    display: flex;
+}
+header section .logo
+{
+    width: 20%;
+    text-align: center;
+}
+header section nav
+{
+    width: 50%;
+    padding-left: 2%;
+}
+header section ul
+{
+    list-style-type: none;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+header section ul li
+{
+    font-weight: bold;
+    font-size: large;
+    padding: 15px 10px 10px 20px;
+}
+header section ul li a
+{
+    color: white;
+}
+header section ul li a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+header section form
+{
+    width: 30%;
+    padding-top: 10px;
+}
+header section form input
+{
+    width: 80%;
+    font-size: 15px;
+    padding: 7px 35px 7px 15px;
+    float: left;
+}
+header section form button
+{
+    width: 70px;
+    text-align: center;
+    height: 39px;
+    background: #4bc714;
+    border: 0;
+}
+
+/* --------------------------------------- End Header ---------------------------*/
+
+/* --------------------------------- start page interface ----------------------*/
+.interface
+{
+    width: 100%;
+    padding-bottom: 200px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    position: relative;
+}
+.interface article
+{
+    width: 70%;
+}
+.interface article h1
+{
+    font-size: 35px;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+.interface article p
+{
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 10px 0px 20px 0px;
+    color: white;
+    font-family: poppins;
+}
+.interface article a 
+{
+    width: 140px;
+    padding: 7px 0 ;
+    background: white;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+    border-radius: 8px;
+}
+.interface article a:hover
+{
+    text-decoration: none;
+    color: white;
+    background: #052501 ;
+    border: 0;
+}
+
+/* --------------------------------- end page interface ----------------------*/
+
+.special-offer
+{
+    width: 100%;
+    height: 250px;
+    padding: 90px 0;
+}
+.special-offer h2
+{
+    text-align: center;
+    padding: 0px 0px 6px 0px;
+    font-weight: 500;
+    color: #052501;
+    line-height: 46px;
+    border-bottom: #052501 solid 1px;
+    font-size: 50px;
+    max-width: 374px;
+    width: 100%;
+    margin: 0 auto;
+}
+.special-offer h2 strong
+{
+    color: #63ce33;
+    font-weight: 208;
+}
+.offers
+{
+    background: #052501;
+    padding-top: 3%;
+    padding-bottom: 30px;
+}
+.offers-items
+{
+    text-align: center;
+}
+.offers-items h3
+{
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.offers-items p
+{
+    padding-top: 35px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+/* ------------------------------------------------------------------------ */
+.products
+{
+    width: 100%;
+}
+.products-box
+{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.products-box figure img
+{
+    width: 100%;
+    height: 248px;
+}
+.products-box figure h3
+{
+    text-align: center;
+    width: 100%;
+    background: #052501d4;
+    padding: 10px 13px 13px 13px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact
+{
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/Contact.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+}
+.contact>form
+{
+    width: 50%;
+    background-color: #163f03;
+    margin: auto;
+    padding: 60px 40px;
+    color: #666666;
+    font-size: 14px;
+    font-family: poppins;
+    line-height: 1.80857;
+    border-radius: 2px;
+}
+@media screen and (max-width:730px)
+{
+    .contact>form
+    {
+        width: 95%;
+    }
+}
+@media screen and (min-width:730px) and (max-width:880px)
+{
+    .contact>form
+    {
+        width: 80%;
+    }
+}
+.contact>form input
+{
+    color: #495057;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+.contact>form input::placeholder
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.contact>form button
+{
+    width: 40%;
+    height: 60px;
+}
+
+footer
+{
+    width: 100%;
+    background: #052501;
+    padding-top: 7%;
+    position: relative;
+    padding-bottom: 50px;
+}
+footer>.container h3
+{
+    color: #fff;
+    font-size: 29px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: #3e7f21 solid 4px;
+    margin-bottom: 20px;
+    width: 226px;
+}
+footer>.container ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+footer>.container ul li
+{
+    padding-bottom: 15px;
+    display: flex;
+}
+footer>.container ul li img
+{
+    width: 8px;
+    height: 17px;
+    padding-top: 5px;
+}
+footer>.container ul li a
+{
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer>.container ul li a:hover
+{
+    color: #3e7f21;
+    text-decoration: none;
+}
+footer>.container p 
+{
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+footer>.container input
+{
+    padding: 10px 15px;
+    border: #ddd solid 1px;
+    margin-bottom: 20px;
+    box-shadow: inherit;
+    border-radius: 10px;
+}
+footer>.container button
+{
+    padding: 8px 45px;
+    border: #30880d solid 1px;
+    background: #30880d;
+    color: #fff;
+    font-weight: 500;
+    font-size: 19px;
+    border-radius: 10px;
+}
+.copy-right
+{
+    width: 100%;
+    background: #4bc714;
+    height: 50px;
+}
+.copy-right p
+{
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 18px;
+}
